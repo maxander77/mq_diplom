@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Document</title>
+  <title>Diplom</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -47,6 +47,31 @@
         и образе жизни</h1>
     </div>
   </header>
+
+  <!-- POPUP -->
+  <div class="popup_bg">
+    <!-- <img class="close_popup" src="css/svg/form-x.svg" alt="icon"> -->
+    <div class="popup">
+      <h3 class="new-post-title">Ваш Фидбек</h3>
+      <div class="popup_content">
+        <form class="popup_form">
+          <div class="popup_question">
+            <label class="text_popup" id="question">Как часто вы заходите на сайт?</label>
+            <input class="popup_input" id="question" type="text" placeholder="Почти каждый день">
+          </div>
+          <div class="popup_radio">
+            <label id="input_radio" class="popup_text">Вы подпиисаны на нашу e-mail рассылку?</label>
+            <input type="radio" id="input_radio">
+            <label class="popup_radio_btn" for="input_radio">Да</label>
+            <label class="popup_radio_btn" for="input_radio">Нет</label>
+          </div>
+      </div>
+      </form>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- Popup END -->
 
   <!-- TRANDS WRAP -->
   <section class="trands_slide">
@@ -122,8 +147,7 @@
         <!---MAIN-CARDS--->
         <!---First-Card--->
         <article class="news">
-          <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg"
-            alt="walking human">
+          <img class="news-img" src="css/img/last-post1.jpg" alt="walking human">
 
           <div class="container-news">
             <ul class="news-items-tag">
@@ -151,8 +175,7 @@
 
         <!---Second-Card-->
         <article class="news">
-          <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg"
-            alt="yoga">
+          <img class="news-img" src="css/img/last-post2.jpg" alt="yoga">
           <div class="container-news">
             <ul class="news-items-tag">
               <li class="news-list-items">
@@ -180,8 +203,7 @@
 
         <!---Third-Card-->
         <article class="news">
-          <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg"
-            alt="dance">
+          <img class="news-img" src="css/img/last-post3.jpg" alt="dance">
           <div class="container-news">
             <ul class="news-items-tag">
               <li class="news-list-items">
@@ -205,8 +227,7 @@
 
         <!---Fourth-Card-->
         <article class="news">
-          <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg"
-            alt="food">
+          <img class="news-img" src="css/img/last-post4.jpg" alt="food">
           <div class="container-news">
             <ul class="news-items-tag">
               <li class="news-list-items">
@@ -234,8 +255,7 @@
 
         <!---Fifth-Card-->
         <article class="news">
-          <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg"
-            alt="art">
+          <img class="news-img" src="css/img/last-post5.jpg" alt="art">
           <div class="container-news">
             <ul class="news-items-tag">
               <li class="news-list-items">
@@ -262,69 +282,12 @@
             </div>
           </div>
         </article>
-
-        <!---Sixth-Card-->
-        <article class="news">
-          <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg"
-            alt="travel">
-          <div class="container-news">
-            <ul class="news-items-tag">
-              <li class="news-list-items">
-                <a class="news-tag" href="#0">Travel</a>
-              </li>
-              <li class="news-list-items">
-                <a class="news-tag" href="#0">Lifestyle</a>
-              </li>
-            </ul>
-            <h2 class="news-name">
-              <a class="news-header" href="#0">Как первый раз отправиться
-                в горы?</a>
-            </h2>
-            <div class="news-meta">
-              <time class="news-date">10 июня 2019</time>
-              <span class="author">Неизвестный автор</span>
-            </div>
-            <div class="news-content">
-              <p>Для начала нужно определиться, в каком формате пройдёт ваше путешествие. Это зависит от многих
-                факторов,
-                не только от ваших желаний и интересов.</p>
-            </div>
-          </div>
-        </article>
-
-        <!---Seventh-Card-->
-        <article class="news">
-          <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg"
-            alt="cooking">
-          <div class="container-news">
-            <ul class="news-items-tag">
-              <li class="news-list-items">
-                <a class="news-tag" href="#0">Lifestyle</a>
-              </li>
-              <li class="news-list-items">
-                <a class="news-tag" href="#0">Food</a>
-              </li>
-            </ul>
-            <h2 class="news-name">
-              <a class="news-header" href="#0">Наукоёмкий подход к
-                кулинарии</a>
-            </h2>
-            <div class="news-meta">
-              <time class="news-date">10 июня 2019</time>
-              <span class="author">Неизвестный автор</span>
-            </div>
-            <div class="news-content">
-              <p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и
-                микробиологию
-                еды.</p>
-            </div>
-          </div>
-        </article>
       </main>
 
 
-      <!--ASIDE-->
 
+
+      <!--ASIDE-->
 
       <aside class="aside">
         <section class="aside-item aside-item-new">
@@ -334,8 +297,7 @@
           <!--NEW-POST-First-->
 
           <article class="new-post">
-            <img class="new-post-img" src="https://netology-code.github.io/html-2-diploma/sources/images/2.jpg"
-              alt="walking human">
+            <img class="new-post-img" src="css/img/2.jpg" alt="walking human">
             <div class="new-wrap">
               <time class="new-post-date">14 июня 2019</time>
               <h3 class="new-news-name">
@@ -346,8 +308,7 @@
 
           <!--NEW-POST-Second-->
           <article class="new-post">
-            <img class="new-post-img" src="https://netology-code.github.io/html-2-diploma/sources/images/7.jpg"
-              alt="walking human">
+            <img class="new-post-img" src="css/img/7.jpg" alt="walking human">
             <div class="new-wrap">
               <time class="new-post-date">14 июня 2019</time>
               <h3 class="new-news-name">
@@ -358,8 +319,7 @@
 
           <!--NEW-POST-Third-->
           <article class="new-post">
-            <img class="new-post-img" src="https://netology-code.github.io/html-2-diploma/sources/images/45.jpg"
-              alt="walking human">
+            <img class="new-post-img" src="css/img/45.jpg" alt="walking human">
             <div class="new-wrap">
               <time class="new-post-date">14 июня 2019</time>
               <h3 class="new-news-name">
@@ -370,8 +330,7 @@
 
           <!--NEW-POST-Fourth-->
           <article class="new-post">
-            <img class="new-post-img" src="https://netology-code.github.io/html-2-diploma/sources/images/151.jpg"
-              alt="walking human">
+            <img class="new-post-img" src="css/img/151.jpg" alt="walking human">
             <div class="new-wrap">
               <time class="new-post-date">14 июня 2019</time>
               <h3 class="new-news-name">
@@ -382,8 +341,7 @@
 
           <!--NEW-POST-Fifth-->
           <article class="new-post">
-            <img class="new-post-img" src="https://netology-code.github.io/html-2-diploma/sources/images/501.jpg"
-              alt="walking human">
+            <img class="new-post-img" src="css/img/501.jpg" alt="walking human">
             <div class="new-wrap">
               <time class="new-post-date">14 июня 2019</time>
               <h3 class="new-news-name">
@@ -396,9 +354,10 @@
 
           <form class="search">
             <label class="search-group">
-              <input class="search-field" placeholder="    Найти..." alt="поле поиска">
+              <span class="search-hint">найти</span>
+              <input class="search-field" placeholder="Найти..." alt="поле поиска">
             </label>
-            <button class="search-button" alt="кнопка поиска"></button>
+            <button class="search-button" alt="кнопка поиска"> <span class="search-hint">кнопка поиска</span></button>
           </form>
         </section>
 
@@ -499,19 +458,21 @@
           <source media="(max-width: 640px)" srcset="css/img/shop-item-mobile1.jpg">
           <img src="css/img/shop-item-desk1.jpg" alt="item shop">
         </picture>
-        <div class="box_shop_text">
-          <h3 class="wrap_shop">Подушки на диван</h3>
-          <p class="wrap_shop_text">Набор из двух подушек с модными принтами. Видео о создании <a class="shop_text_link"
-              href="#0"> здесь</a>
-            .</p>
-        </div>
-        <div class="box_shop_price">
-          <div class="shop_price">
-            <s class="shop_price_text">1000</s>
-            <p class="shop_best_price">800</p>
+        <div class="shop_border_box">
+          <div class="box_shop_text">
+            <h3 class="wrap_shop">Подушки на диван</h3>
+            <p class="wrap_shop_text">Набор из двух подушек с модными принтами. Видео о создании <a
+                class="shop_text_link" href="#0"> здесь</a>
+              .</p>
           </div>
-          <div class="box_shop_button">
-            <button class="button_shop">в магазин</button>
+          <div class="box_shop_price">
+            <div class="shop_price">
+              <s class="shop_price_text">1000 ₽</s>
+              <p class="shop_best_price">800 ₽</p>
+            </div>
+            <div class="box_shop_button">
+              <button class="button_shop">в магазин</button>
+            </div>
           </div>
         </div>
       </article>
@@ -523,18 +484,20 @@
           <source media="(max-width: 640px)" srcset="css/img/shop-item-mobile2.jpg">
           <img src="css/img/shop-item-desk2.jpg" alt="item shop">
         </picture>
-        <div class="box_shop_text">
-          <h3 class="wrap_shop">Кукла «Зайчик»</h3>
-          <p class="wrap_shop_text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a
-              class="shop_text_link" href="#0">весенняя серия постов</a> в блоге и
-            несколько подкастов.</p>
-        </div>
-        <div class="box_shop_price">
-          <div class="shop_price">
-            <p class="shop_best_price">3500</p>
+        <div class="shop_border_box">
+          <div class="box_shop_text">
+            <h3 class="wrap_shop">Кукла «Зайчик»</h3>
+            <p class="wrap_shop_text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a
+                class="shop_text_link" href="#0">весенняя серия постов</a> в блоге и
+              несколько подкастов.</p>
           </div>
-          <div class="box_shop_button">
-            <button class="button_shop">в магазин</button>
+          <div class="box_shop_price">
+            <div class="shop_price">
+              <p class="shop_best_price">3500 ₽</p>
+            </div>
+            <div class="box_shop_button">
+              <button class="button_shop">в магазин</button>
+            </div>
           </div>
         </div>
       </article>
@@ -546,19 +509,22 @@
           <source media="(max-width: 640px)" srcset="css/img/shop-item-mobile3.jpg">
           <img src="css/img/shop-item-desk3.jpg" alt="item shop">
         </picture>
-        <div class="box_shop_text">
-          <h3 class="wrap_shop">Шестиугольная рамка</h3>
-          <p class="wrap_shop_text">Необычная рамка для украшения дома из видео <a class="shop_text_link" href="#0">«Как
-              сделать рамку из подручных средств за 30 минут»</a>
-            .</p>
-        </div>
-        <div class="box_shop_price">
-          <div class="shop_price">
-            <s class="shop_price_text">500</s>
-            <p class="shop_best_price">400</p>
+        <div class="shop_border_box">
+          <div class="box_shop_text">
+            <h3 class="wrap_shop">Шестиугольная рамка</h3>
+            <p class="wrap_shop_text">Необычная рамка для украшения дома из видео <a class="shop_text_link"
+                href="#0">«Как
+                сделать рамку из подручных средств за 30 минут»</a>
+              .</p>
           </div>
-          <div class="box_shop_button">
-            <button class="button_shop">в магазин</button>
+          <div class="box_shop_price">
+            <div class="shop_price">
+              <s class="shop_price_text">500 ₽</s>
+              <p class="shop_best_price">400 ₽</p>
+            </div>
+            <div class="box_shop_button">
+              <button class="button_shop">в магазин</button>
+            </div>
           </div>
         </div>
       </article>
@@ -573,17 +539,17 @@
           <ul class="social-list">
             <li class="social-list-item">
               <a class="social-link social-dribbble" href="#0">
-                <span class="search-hint">dribble</span>
+                <img src="css/svg/001-dribbble.svg" alt="dribbble">
               </a>
             </li>
-            <li class="-footer-list-item">
+            <li class="footer-list-item">
               <a class="social-link  social-printerest" href="#0">
-                <span class="search-hint">printerest</span>
+                <img src="css/svg/001-pinterest.svg" alt="pinterest">
               </a>
             </li>
-            <li class="-footer-list-item">
+            <li class="footer-list-item">
               <a class="social-link   social-tumblr" href="#0">
-                <span class="search-hint">tumblr</span>
+                <img src="css/svg/003-tumblr.svg" alt="tumblr">
               </a>
             </li>
           </ul>
