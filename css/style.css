@@ -561,8 +561,8 @@ select:after {
   background-color: #f4f7f6;
   border: none;
 
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  /* -webkit-appearance: none;
+  -moz-appearance: none; */
 }
 
 .select:focus {
