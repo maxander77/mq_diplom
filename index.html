@@ -20,31 +20,40 @@
           <img class="header-logo" src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg"
             alt="logo noemi">
         </a>
-        <nav class="header-menu">
-          <ul class="menu-list">
-            <li class="menu-list-item">
-              <a class="menu-link" href="#0">главная</a>
-            </li>
-            <li class="menu-list-item">
-              <a class="menu-link" href="#0">посты</a>
-            </li>
-            <li class="menu-list-item">
-              <a class="menu-link" href="#0">статьи</a>
-            </li>
-            <li class="menu-list-item">
-              <a class="menu-link" href="#0">теги</a>
-            </li>
-            <li class="menu-list-item">
-              <a class="menu-link" href="#0">темы</a>
-            </li>
-            <li class="menu-list-item">
-              <a class="menu-link" href="#0">контакты</a>
-            </li>
-          </ul>
-        </nav>
+        <!-- burger -->
+        <div class="burger_box">
+          <input class="burger_menu" type="checkbox" id="burger">
+          <label class="burger_menu_btn" for="burger">☰</label>
+
+          <!-- burger end -->
+          <nav class="header-menu">
+            <ul class="menu-list">
+              <li class="menu-list-item">
+                <a class="menu-link" href="#0">главная</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#0">посты</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#0">статьи</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#0">теги</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#0">темы</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#0">контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <h1 class="header-title">Блог о творчестве, спорте,
-        и образе жизни</h1>
+      <div class="header-title-box">
+        <h1 class="header-title">Блог о творчестве, спорте,
+          и образе жизни</h1>
+      </div>
     </div>
   </header>
 
@@ -144,6 +153,8 @@
   <div class="container-full">
     <div class="container-menu">
       <main class="main-news">
+
+
         <!---MAIN-CARDS--->
         <!---First-Card--->
         <article class="news">
@@ -539,17 +550,17 @@
           <ul class="social-list">
             <li class="social-list-item">
               <a class="social-link social-dribbble" href="#0">
-                <img src="css/svg/001-dribbble.svg" alt="dribbble">
+                <span class="search-hint">dribbble</span>
               </a>
             </li>
             <li class="footer-list-item">
               <a class="social-link  social-printerest" href="#0">
-                <img src="css/svg/001-pinterest.svg" alt="pinterest">
+                <span class="search-hint">printerest</span>
               </a>
             </li>
             <li class="footer-list-item">
               <a class="social-link   social-tumblr" href="#0">
-                <img src="css/svg/003-tumblr.svg" alt="tumblr">
+                <span class="search-hint">tumblr</span>
               </a>
             </li>
           </ul>
