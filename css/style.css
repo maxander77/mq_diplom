@@ -220,19 +220,20 @@ button {
     max-width: 360px;
     flex-direction: column-reverse;
   }
-}
-
-.burger_box {
-  margin-bottom: 50px;
-  margin-left: 280px;
-}
-
-  .header-title {
-    max-width: 400px;
-    font-size: 26px;
-    line-height: 36px;
-
+  .burger_box {
+    margin-bottom: 50px;
+    margin-left: 280px;
   }
+  
+  .header-title {
+     max-width: 400px;
+     font-size: 26px;
+     line-height: 36px;
+  
+    }
+  
+}
+
 
 
 /*Trands new */
