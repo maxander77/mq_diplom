@@ -58,9 +58,13 @@
   </header>
 
   <!-- POPUP -->
-  <div class="popup_conteiner">
+  <div class="popup_container">
     <div class="popup_bg">
-      <!-- <img class="close_popup" src="css/svg/form-x.svg" alt="icon"> -->
+      <!-- <img src="" alt="" class="closed_btn"> -->
+      <button class="closed_btn">
+        <span class="search-hint">
+          кнопка закрытия</span>
+      </button>
       <div class="popup">
         <h3 class="new-post-title">Ваш Фидбек</h3>
         <form class="popup_form">
@@ -73,20 +77,16 @@
               <option value="Несколько раз в год">Несколько раз в год</option>
             </select>
           </div>
-          <div class="popup_radio">
+          <div class="form-row">
             <p class="text_popup">Вы подпиисаны на нашу e-mail рассылку?</p>
-            <div class="box_radio">
-              <div class="form_group_radio">
-                <input type="radio" id="radio_btn" name="category" class="radio">
-                <span class="custom_radio"></span>
-                <label for="radio_btn" class="text_popup">Да</label>
-              </div>
-              <div class="form_group_radio">
-                <input type="radio" id="radio_btn" name="category">
-                <span class="custom_radio"></span>
-                <label for="radio_btn" class="text_popup">Нет</label>
-              </div>
-            </div>
+            <label class="radio-group">
+              <input type="radio" class="radio" name="radio-group">
+              <span class="text_popup radio-group-text">Да</span>
+            </label>
+            <label class="radio-group">
+              <input type="radio" class="radio" name="radio-group">
+              <span class="text_popup radio-group-text">Нет</span>
+            </label>
           </div>
 
           <div class="popup_feedback">
@@ -330,7 +330,7 @@
       <aside class="aside">
         <section class="aside-item aside-item-new">
 
-          <h3 class="new-post-title">Новые посты</h3>
+          <h3 class="new-post-title new-mob-post">Новые посты</h3>
 
           <!--NEW-POST-First-->
 
