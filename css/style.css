@@ -580,20 +580,10 @@ button {
 
   -webkit-appearance: none;
   -moz-appearance: none;
-}
-
-
-
-.select::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
   background-image: url(svg/form-arrows.svg);
   background-repeat: no-repeat;
-	background-position: center  center;
-  background-size: 20px;
-
+	background-position: right 5px center;
+  background-size: 10px;
 }
 
 .select:focus {
@@ -1123,7 +1113,7 @@ color: #b59f5b;
 }
 
 .header_shop {
-  width: 24.8%;
+  width: 28.8%;
 }
 
 .img_shop {
@@ -1217,6 +1207,24 @@ color: #b59f5b;
   transition: .6s;
 }
 
+@media (min-width: 1199px) {
+  .container_shop {
+    margin-left: 25px;
+  }
+
+  .shop_border_box {
+    margin-left: -25px;
+    padding-left: 25px;
+  }
+
+  .first_border_box {
+    padding-bottom: 69px;
+  }
+
+  .third_border_box {
+    padding-bottom: 46px;
+  }
+}
 
 @media (min-width: 641px) and (max-width: 1199px) {
   .shop {
