@@ -185,13 +185,10 @@ button {
   text-transform: uppercase;
 }
 
-.header-title-box {
+.header-title {
   justify-content: center;
   display: flex;
   margin: auto; 
-}
-
-.header-title {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   text-transform: uppercase;
@@ -235,7 +232,6 @@ button {
 }
 
 
-
 /*Trands new */
 .trands_slide {
   margin-top: 60px;
@@ -276,7 +272,7 @@ button {
 
 @media (max-width: 640px) {
   .box_trands {
-    width: 99%;
+    width: 100%;
   }
   .box_trands:not(:last-child) {
     margin-bottom: 5px;
@@ -310,7 +306,6 @@ button {
 
 .trands_wrap {
   flex-grow: 1;
-  max-width: 370px;
   border: 3px solid #b59f5b;
   padding: 25px 10px;
 }
@@ -409,6 +404,7 @@ button {
   width: 381px;
   background-color: #eff6f1;
   margin-right: 30px;
+  object-fit: cover;
 }
 
 .container-news {
@@ -508,7 +504,7 @@ button {
   }
 
   .news-img {
-    max-width: 330px;
+    max-width: 320px;
     margin-left: 10px;
     margin-bottom: 15px;
   }
@@ -530,10 +526,21 @@ button {
   z-index: 10;
 }
 
+
+
+.popup {
+  position: fixed;
+  left: 40%;
+  top: 20%;
+  padding-top: 30px;
+  max-width: 390px;
+  background-color: #ffffff;
+}
+
 .closed_btn {
   position: absolute;
-  top: 60px;
-  right: 31.6%;
+  right: 10px;
+  top: 20px;
   width: 20px;
   height: 20px;
   background-image: url(svg/form-x.svg);
@@ -541,20 +548,10 @@ button {
   background-size: cover;
   background-color: inherit;
   border: none;
-}
-
-.popup {
-  position: absolute; 
-  left: 40%;
-  top: 10%;
-  max-width: 390px;
-  background-color: #ffffff;
-  padding-top: 50px;
-}
+} 
 
 .popup_form {
-  margin-left: 30px;
-  padding-right: 30px;
+  padding: 0 30px 50px 30px;
 }
 
 .text_popup {
@@ -567,7 +564,7 @@ button {
 
 .select {
   position: relative;
-  width: 330px;
+  width: 100%;
   opacity: 0.541;
   font-size: 13px;
   color: #000000;
@@ -641,8 +638,8 @@ button {
 }
 
 .text_form {
-  width: 330px;
-  padding: 20px 0 100px 20px;
+  width: 100%;
+  padding: 20px 0 0 20px;
   opacity: 0.541;
   font-size: 13px;
   color: #000000;
@@ -657,11 +654,10 @@ button {
 
 .box_button_popup {
   margin-top: 20px;
-  padding-bottom: 50px;
 }
 
 .popup_button {
-  width: 330px;
+  width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
 
@@ -725,7 +721,7 @@ button {
 }
 
 .aside-item-new {
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 .new-post {
@@ -791,7 +787,7 @@ justify-content: space-between;
 }
 
 .new-link:hover {
-color: #b59f5b;
+  color: #b59f5b;
 }
 
 /*search-button*/
@@ -802,7 +798,7 @@ color: #b59f5b;
 }
 
 .search-field {
-  width: 222px;
+  width: 202px;
   height: 48px;
   opacity: 0.541;
   font-size: 13px;
@@ -812,6 +808,7 @@ color: #b59f5b;
   background-color: #f4f7f6;
   border: none;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 .search-field:focus {
@@ -820,14 +817,14 @@ color: #b59f5b;
 }
 
 .search-button {
- width: 48px;
- border: none;
- background-image: url(svg/search.svg);
- background-repeat: no-repeat;
- background-color: #b59f5b;
- background-size: 16px;
- background-position: center center;
- cursor: pointer;
+  width: 48px;
+  border: none;
+  background-image: url(svg/search.svg);
+  background-repeat: no-repeat;
+  background-color: #b59f5b;
+  background-size: 16px;
+  background-position: center center;
+  cursor: pointer;
 }
 
 .search-button:hover {
@@ -837,8 +834,6 @@ color: #b59f5b;
 /*mailing-subscribe*/
 
 .aside-distribution {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   margin-top: 55px;
 }
@@ -874,7 +869,7 @@ color: #b59f5b;
 }
 
 .field-mail {
-  width: 270px;
+  width: 260px;
   height: 48px;
   background-color: #f4f7f6;
   font-size: 13px;
@@ -1113,6 +1108,10 @@ color: #b59f5b;
 }
 
 .header_shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 28.8%;
 }
 
@@ -1208,21 +1207,8 @@ color: #b59f5b;
 }
 
 @media (min-width: 1199px) {
-  .container_shop {
-    margin-left: 25px;
-  }
-
   .shop_border_box {
-    margin-left: -25px;
-    padding-left: 25px;
-  }
-
-  .first_border_box {
-    padding-bottom: 69px;
-  }
-
-  .third_border_box {
-    padding-bottom: 46px;
+    padding-right: 30px;
   }
 }
 
@@ -1331,12 +1317,12 @@ color: #b59f5b;
 
 @media (min-width: 641px) and (max-width: 1199px) {
   .footer-wrapper {
-    max-width: 710px;
+    max-width: 650px;
   }
 }
 
 @media (max-width: 640px) {
   .footer-wrapper {
-    max-width: 360px;
+    max-width: 330px;
   }
 }
