@@ -498,13 +498,9 @@ button {
 
   .news-img {
     width: 100%;
-    /* margin-left: 10px; */
     margin-bottom: 15px;
   }
 
-  .container-news {
-    /* margin-left: 10px; */
-  }
 }
 /* POPUP */
 .popup_bg {
@@ -961,10 +957,6 @@ button {
 }
 
 @media (max-width: 640px) {
-  .aside-item  {
-    /* margin-left: 10px; */
-  }
-
   .new-mob-post {
     margin-left: 60px;
   }
@@ -1043,7 +1035,7 @@ button {
   }
 
   .search-field {
-    width: 270px;
+    width: 240px;
   }
 
   .search-button {
@@ -1056,10 +1048,10 @@ button {
   }
 
   .field-mail {
-    width: 318px;
+    width: 288px;
   }
   .subscribe-button {
-    width: 330px;
+    width: 300px;
   }
 
   .tags {
