@@ -214,7 +214,7 @@ button {
 
 @media (max-width: 639px) {
   .menu {
-    max-width: 360px;
+    width: 100%;
     flex-direction: column-reverse;
   }
   .burger_box {
@@ -262,6 +262,10 @@ button {
   padding-right: 20px;
   padding-bottom: 14px;
   box-sizing: border-box;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
@@ -299,9 +303,6 @@ button {
 
 .box_trands_interior {
   background-image: url(img/trend1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 .trands_wrap {
@@ -346,23 +347,14 @@ button {
 
 .box_trands_food {
   background-image: url(img/trend2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 .box_trands_travel {
   background-image: url(img/trend3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 .box_trands_health {
   background-image: url(img/trend4.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
@@ -394,6 +386,7 @@ button {
   max-width: 778px;
   text-align: center;
   justify-content: space-between;
+  align-items: stretch;
 }
 
 .news:not(:last-child) {
@@ -404,7 +397,7 @@ button {
   width: 381px;
   background-color: #eff6f1;
   margin-right: 30px;
-  object-fit: cover;
+
 }
 
 .container-news {
@@ -490,7 +483,7 @@ button {
 
 @media (max-width: 640px) {
   .container-menu {
-    max-width: 360px;
+    width: 100%;
     display: block;
     padding: 0;
     align-items: center;
@@ -499,12 +492,12 @@ button {
   }
 
   .news {
-    max-width: 330px;
+    width: 100%;
     display: block;
   }
 
   .news-img {
-    max-width: 320px;
+    width: 100%;
     margin-left: 10px;
     margin-bottom: 15px;
   }
@@ -539,14 +532,14 @@ button {
 
 .closed_btn {
   position: absolute;
-  right: 10px;
-  top: 20px;
+  right: 0;
+  top: -25px;
   width: 20px;
   height: 20px;
   background-image: url(svg/form-x.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: inherit;
+  background-color: black;
   border: none;
 } 
 
@@ -676,24 +669,12 @@ button {
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
-
-  .closed_btn {
-    top: 90px;
-    right: 26.5%;
-  }
-
   .popup {
     left: 26%;
   }
 }
 
 @media (max-width: 640px) {
-
-  .closed_btn {
-    top: 35px;
-    right: 30px;
-  }
-
   .popup {
     max-width: 350px;
     top: 60px;
@@ -869,7 +850,7 @@ button {
 }
 
 .field-mail {
-  width: 260px;
+  width: 258px;
   height: 48px;
   background-color: #f4f7f6;
   font-size: 13px;
@@ -1057,8 +1038,12 @@ button {
 }
 
 @media (max-width: 640px) {
+  .aside {
+    width: 100%;
+  }
+
   .search-field {
-    width: 290px;
+    width: 270px;
   }
 
   .search-button {
@@ -1125,6 +1110,7 @@ button {
   padding: 50px 25px 25px 15px;
   margin-top: -35px;
   z-index: 2;
+  flex-grow: 1;
 }
 
 .wrap_shop {
@@ -1232,7 +1218,7 @@ button {
 
 @media (max-width: 640px) {
   .shop {
-    width: 360px;
+    width: 100%;
   }
 
   .header_shop  {
@@ -1323,6 +1309,6 @@ button {
 
 @media (max-width: 640px) {
   .footer-wrapper {
-    max-width: 330px;
+    width: 100%;
   }
 }
