@@ -498,12 +498,12 @@ button {
 
   .news-img {
     width: 100%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-bottom: 15px;
   }
 
   .container-news {
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
 }
 /* POPUP */
@@ -962,7 +962,7 @@ button {
 
 @media (max-width: 640px) {
   .aside-item  {
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
 
   .new-mob-post {
@@ -1310,5 +1310,9 @@ button {
 @media (max-width: 640px) {
   .footer-wrapper {
     width: 100%;
+  }
+
+  .footer-wrapper {
+    padding: 0;
   }
 }
