@@ -88,7 +88,7 @@ button {
 
 @media (max-width: 639px) {
   .header-wrap {
-    max-width: 360px;
+    width: 100%;
   }
 }
 
@@ -110,15 +110,8 @@ button {
   }
 }
 
-@media  (max-width: 639px) {
-  .menu {
-    max-width: 360px;
-  }
-}
 
-.logo {
-  position: relative;
-  margin: 0;
+.header-logo {
   width: 179px;
 }
 
@@ -215,15 +208,25 @@ button {
 @media (max-width: 639px) {
   .menu {
     width: 100%;
+    align-items: center;
     flex-direction: column-reverse;
   }
+
+  .logo {
+    margin-right: 40px;
+  }
+
+  .header-logo {
+    width: 260px;
+ }
+
   .burger_box {
     margin-bottom: 50px;
     margin-left: 280px;
   }
   
   .header-title {
-     max-width: 400px;
+     max-width: 280px;
      font-size: 26px;
      line-height: 36px;
   
@@ -367,6 +370,12 @@ button {
   }
 }
 
+@media (max-width: 640px) {
+  .trands_slide {
+    margin-top: 30px;
+  }
+} 
+
 /*MAIN*/
 
 .container-full {
@@ -499,7 +508,7 @@ button {
   .news-img {
     width: 100%;
     margin-bottom: 15px;
-    margin-left: 10px;
+
     margin-right: 0;
   }
 
@@ -962,12 +971,18 @@ button {
 }
 
 @media (max-width: 640px) {
+
+  .new-post-title {
+    font-size: 16px;
+  }
+
   .aside-item  {
       margin-left: 10px;
   }
 
   .new-mob-post {
-    margin-left: 60px;
+    margin-left: 70px;
+    margin-top: 55px;
   }
 }
 
@@ -1053,7 +1068,8 @@ button {
   }
 
   .mailing {
-    margin-left: 60px;
+    font-size: 16px;
+    margin-left: 80px;
   }
 
   .field-mail {
@@ -1064,11 +1080,13 @@ button {
   }
 
   .tags {
-    margin-left: 60px;
+    font-size: 16px;
+    margin-left: 80px;
   }
 
   .topic-header {
-    margin-left: 60px;
+    font-size: 16px;
+    margin-left: 80px;
   }
 }
 
@@ -1205,6 +1223,10 @@ button {
   }
   .header_shop {
     width: 49%;
+  }
+
+  .header_shop:not(:last-child) {
+    margin-bottom: 15px;
   }
 
   .img_shop {
