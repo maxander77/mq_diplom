@@ -89,6 +89,7 @@ button {
 @media (max-width: 639px) {
   .header-wrap {
     width: 100%;
+    padding: 0;
   }
 }
 
@@ -114,6 +115,7 @@ button {
 .header-logo {
   width: 179px;
 }
+
 
 
  /* burger */
@@ -207,7 +209,6 @@ button {
 
 @media (max-width: 639px) {
   .menu {
-    width: 100%;
     align-items: center;
     flex-direction: column-reverse;
   }
@@ -972,6 +973,10 @@ button {
 
 @media (max-width: 640px) {
 
+  .aside {
+    width: 100%;
+  }
+
   .new-post-title {
     font-size: 16px;
   }
@@ -1255,6 +1260,11 @@ button {
   .img_shop {
     margin-left: 25px;
   }
+
+  .shop_border_box {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 /*FOOTER*/
@@ -1326,7 +1336,7 @@ button {
 
 @media (min-width: 641px) and (max-width: 1199px) {
   .footer-wrapper {
-    max-width: 650px;
+    width: 100%;
   }
 }
 
