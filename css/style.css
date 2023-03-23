@@ -966,7 +966,6 @@ button {
 @media (min-width: 641px) and (max-width: 1199px) {
   .new-post-title {
   font-size: 14px;
-  line-height: 29px;
   font-weight: 700;
   }
 }
@@ -1336,13 +1335,14 @@ button {
 
 @media (min-width: 641px) and (max-width: 1199px) {
   .footer-wrapper {
-    width: 100%;
+    width: 700px;
   }
 }
 
 @media (max-width: 640px) {
   .footer-wrapper {
     width: 100%;
+    margin-left: 10px;
   }
 
   .footer-wrapper {
