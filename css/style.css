@@ -709,7 +709,7 @@ button {
 /*new-post*/
 
 .aside {
-  max-width: 270px;
+  width: 270px;
 }
 
 .aside-item-new {
@@ -985,7 +985,6 @@ button {
   }
 
   .new-mob-post {
-    margin-left: 70px;
     margin-top: 55px;
   }
 }
@@ -1062,6 +1061,10 @@ button {
     width: 100%;
   }
 
+  .search {
+    justify-content: center;
+  }
+
   .search-field {
     width: 270px;
   }
@@ -1073,7 +1076,6 @@ button {
 
   .mailing {
     font-size: 16px;
-    margin-left: 80px;
   }
 
   .field-mail {
@@ -1085,12 +1087,10 @@ button {
 
   .tags {
     font-size: 16px;
-    margin-left: 80px;
   }
 
   .topic-header {
     font-size: 16px;
-    margin-left: 80px;
   }
 }
 
@@ -1335,7 +1335,7 @@ button {
 
 @media (min-width: 641px) and (max-width: 1199px) {
   .footer-wrapper {
-    width: 700px;
+    width: 100%;
   }
 }
 
